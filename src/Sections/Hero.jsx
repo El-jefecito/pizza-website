@@ -16,11 +16,11 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="w-full lg:px-20 px-10 lg:py-20 py-10 h-[600px] bg-cover bg-center flex flex-col justify-center items-start gap-8"
+      className="w-full lg:px-20 lg:py-20 p-3 h-[600px] bg-cover bg-center flex flex-col justify-center items-start gap-8"
       style={{ backgroundImage: `url(${banner4})` }}
     >
       <h1 data-aos="zoom-in" className="text-6xl text-white font-bold">
-        Life is combination <br></br> of Pizza & Magic
+        Life is combination of Pizza & Magic
       </h1>
       <p data-aos="zoom-in" className="text-xl text-white font-lg">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque minima

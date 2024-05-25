@@ -86,7 +86,7 @@ function Footer() {
       {/* scroll to top */}
       <div
         id="icon-box"
-        className="bg-orange-500 text-black p-3 rounded-full hover:bg-white cursor-pointer fixed lg:bottom-6 right-6 bottom-6"
+        className="bg-orange-500 text-black p-2 rounded-full hover:bg-white cursor-pointer fixed lg:bottom-6 right-12 bottom-6"
       >
         <Link to="hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="w-[35px] h-[35px]" />
